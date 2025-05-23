@@ -56,7 +56,7 @@ const Timeline = () => {
   ];
 
   return (
-    <section className="py-16 bg-stone-50">
+    <section id="historical-timeline" className="py-16 bg-stone-50">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl font-bold text-center text-stone-800 mb-12">
           Historical Timeline

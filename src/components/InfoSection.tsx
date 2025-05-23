@@ -27,7 +27,7 @@ const InfoSection = () => {
   ];
 
   return (
-    <section className="py-16 bg-white">
+    <section id="how-it-operates" className="py-16 bg-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl font-bold text-center text-stone-800 mb-12">
           How Systemic Racism Operates
