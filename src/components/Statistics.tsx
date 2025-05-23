@@ -112,7 +112,7 @@ const Statistics = () => {
                       formatter={(value) => [`$${value.toLocaleString()}`, "Wealth"]}
                       labelFormatter={(value) => `${value}`}
                     />
-                    <Bar dataKey="value" nameKey="name" fill="#8884d8" />
+                    <Bar dataKey="value" fill="#8884d8" />
                   </BarChart>
                 </ResponsiveContainer>
               </div>
