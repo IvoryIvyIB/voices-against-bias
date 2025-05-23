@@ -3,12 +3,56 @@ import React from 'react';
 
 const Timeline = () => {
   const events = [
-    { year: 1896, title: "Plessy v. Ferguson", description: "'Separate but equal' doctrine established" },
-    { year: 1954, title: "Brown v. Board", description: "Segregation in schools ruled unconstitutional" },
-    { year: 1964, title: "Civil Rights Act", description: "Prohibited discrimination in public places" },
-    { year: 1965, title: "Voting Rights Act", description: "Protected voting rights for all citizens" },
-    { year: 1968, title: "Fair Housing Act", description: "Prohibited housing discrimination" },
-    { year: 2020, title: "Nationwide Protests", description: "Renewed focus on racial justice and reform" }
+    {
+      year: 1896,
+      title: "Plessy v. Ferguson",
+      description: "The Supreme Court upheld racial segregation under the \"separate but equal\" doctrine, legitimizing decades of systemic discrimination in public facilities."
+    },
+    {
+      year: 1934,
+      title: "Redlining Institutionalized",
+      description: "The Federal Housing Administration (FHA) created residential security maps, systematically denying home loans to Black communities—leading to generational wealth gaps and segregated neighborhoods."
+    },
+    {
+      year: 1954,
+      title: "Brown v. Board of Education",
+      description: "The Supreme Court ruled that racial segregation in public schools was unconstitutional, overturning Plessy v. Ferguson and sparking the modern civil rights movement."
+    },
+    {
+      year: 1964,
+      title: "Civil Rights Act",
+      description: "Banned discrimination based on race, color, religion, sex, or national origin in employment practices and public accommodations—one of the most significant legislative achievements in U.S. history."
+    },
+    {
+      year: 1965,
+      title: "Voting Rights Act",
+      description: "Outlawed discriminatory voting practices like literacy tests and poll taxes. Empowered federal oversight in states with histories of voter suppression."
+    },
+    {
+      year: 1968,
+      title: "Fair Housing Act",
+      description: "Prohibited housing discrimination in the sale, rental, and financing of housing based on race, religion, national origin, or sex. Aimed to dismantle the legacy of redlining."
+    },
+    {
+      year: 1971,
+      title: "War on Drugs Declared",
+      description: "Federal policies targeting drug use disproportionately affected Black and Latino communities. Mass incarceration surged, especially for nonviolent offenses."
+    },
+    {
+      year: 2013,
+      title: "Shelby County v. Holder",
+      description: "The Supreme Court invalidated a key part of the Voting Rights Act, removing federal oversight and allowing states to enact new voter ID laws—many of which disproportionately affect communities of color."
+    },
+    {
+      year: 2014,
+      title: "Black Lives Matter Movement Rises",
+      description: "Following the killing of Michael Brown in Ferguson, Missouri, a national movement emerged to address police brutality, racial injustice, and systemic inequality."
+    },
+    {
+      year: 2020,
+      title: "Nationwide Protests",
+      description: "After the killing of George Floyd, millions joined protests worldwide calling for justice, police reform, and an end to systemic racism, reigniting the push for structural change."
+    }
   ];
 
   return (
